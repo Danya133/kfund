@@ -1,0 +1,29 @@
+.table:hover{
+    border: 3px solid white;
+    padding: 20px;
+    transition: 0.5s;
+    margin: 10px;
+    font-family: 'Yaldevi', sans-serif;
+    background-color:black;
+       
+}
+.table1{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border: 2px solid white;
+}
+.tr{
+    font-size: 20px;
+}
+.center{
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 30px;
+}
+*{
+    background-color: grey;
+}
+
+
+

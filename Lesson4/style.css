@@ -1,0 +1,40 @@
+.center{
+    text-align: center;
+}
+.green{
+    color: green;
+}
+.table{
+    box-shadow: 7px 4px 17px 4px #000000;
+    width: 100%;
+}
+.th1{
+    width: 30%;
+    padding: 30px;
+    box-shadow: 7px 4px 17px 4px #000000;
+}
+.th2{
+    box-shadow: 7px 4px 17px 4px #000000;
+    width: 60%;
+    padding: 20px;
+    border-radius: 4px;
+ 
+ 
+}
+.table1{
+    width: 90%;
+}
+.button:hover{
+    background-color: gray;
+    margin: 20px;
+    padding-left: 50px ;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 7px 4px 17px 4px #000000;
+    transition: 1s;
+}
+ .img:hover{
+     border-radius: 60%;
+     transition: 1s;
+ }

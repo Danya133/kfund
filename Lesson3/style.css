@@ -1,0 +1,24 @@
+
+.table{
+   border-collapse: collapse;
+   background-image: linear-gradient(purple , white, grey );
+}
+.center{
+    text-align: center;
+    font-size: 40px;
+}
+.head{
+    border: 1px solid black;
+    padding: 50px;
+}
+.mp{
+    border: 1px solid black;
+    padding:50px;
+
+}
+.mp:hover{
+    color: white;
+    transition: 0.1s;
+    font-size: 20px;
+    padding: 50px;
+}

@@ -1,0 +1,92 @@
+.container{
+    width: 800px;
+    margin-bottom: 30px;
+}
+.red{
+    background-color: red;
+    width: 100%;
+    height: 200px;
+}
+.green{
+    background-color: green;
+    width: 100%;
+    height: 200px;
+}
+.blue{
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+}
+.top{
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.middle_red{
+    width: 33.333%;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    float: left;
+}
+.middle_blue{
+    width: 33.333%;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    float: left;
+}
+.middle_green{
+    width: 33.333%;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    float: left;
+    
+}
+.yellow{
+    background-color: yellow;
+    width: 100%;
+    height: 100px;
+}
+.grey{
+    background-color: grey;
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+    float: left;
+}
+.black{
+    background-color: black;
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+    float: left;
+}
+.fon{
+    width: 800px;
+    height: 200px;
+    background-color: greenyellow;
+}
+.redbox{
+    width: 210px;
+    background-color: red;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+.greenbox{
+    width: 210px;
+    background-color: green;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+.bluebox{
+    width: 210px;
+    background-color: blue;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+

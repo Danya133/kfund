@@ -1,0 +1,12 @@
+.p{
+    border-left: green solid 3px;
+    padding: 30px;
+    color: red;
+}
+.center{
+    text-align: center;
+}
+.p:hover{
+    transition: 0.5s;
+    border-left: red solid 3px;
+}

@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 5000px;
+}
+
+.instagram{
+  width:200px;
+  height:200px;
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  border-radius: 35%;
+  position: relative;
+}
+.in-instagram{
+    position: absolute;
+    border: 10px solid white;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-top: -73px;
+    margin-left: -73px;
+    border-radius: 30%;
+}
+.in-instagram:after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    border: 10px solid white;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+    border-radius: 50%;
+}
+.in-instagram::before{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    border: 10px solid white;
+    top: 35%;
+    left: 35%;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+.pencil{
+    margin-left: 200px;
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    border: 100px solid grey;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.trapezoid{
+    margin-left: 135px;
+    content: "";
+    position: relative;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    background-color: rgb(244,135,83);
+    width: 330px;
+    height: 300px;
+    border: 100px solid rgb(244,135,83);
+    margin-top: 200px;
+
+}
+.poloski{
+    content: "";
+    position: absolute;
+    width: 330px;
+    height: 600px;
+    background-color: rgb(67,242,195);
+    margin-left: 135px;
+}
+.poloska1{
+    display: inline-block;
+    position: relative;
+    width: 105px;
+    height: 600px;
+    background-color: rgb(23,120,94);
+    border-radius: 10%;
+}
+.poloska2{
+    display: inline-block;
+    position: relative;
+    width: 105px;
+    height: 600px;
+    background-color: rgb(23,120,94);
+    border-radius: 10%;
+}
+.poloska3{
+    display: inline-block;
+    position: relative;
+    width: 105px;
+    height: 600px;
+    background-color: rgb(23,120,94);
+    border-radius: 10%;
+
+}

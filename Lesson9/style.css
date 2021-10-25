@@ -15,10 +15,17 @@ body{
 }
 
 .header{
-    background-image: url("/img/fon3.jpg");
+    background-image: url("img/background.png");
     width: 100vw;
     height: 100vh;
+    background-size: cover;
+    background-color: grey;
 
+}
+.header-bottom{
+    margin-top: 200px;
+    width: 1170px;
+    margin-bottom: 100px;
 }
 .poloska{
     display: flex;
@@ -65,10 +72,17 @@ li:hover{
 }
 .header-bottom{
     color: black;
+    margin-left: 550px;
+    width: 1170px;
 }
 .centertext{
     text-align: center;
     color: black;
+}
+.icon-header{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 150px;
 }
 .aicon{
     width: 350px;
@@ -90,8 +104,83 @@ li:hover{
     font-size: 20px;
 }
 .text4{
-    font-size: 10px;
+    font-size: 20px;
 }
+.text5{
+    font-size: 20px;
+}
+.codeicon{
+    width: 350px;
+}
+.code{
+    margin-left: 30px;
+    color: red;
+    font-size: 80px;
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+.code:hover{
+    background-color: red;
+    color: white;
+}
+.supporticon{
+    width: 350px;
+}
+.support{
+    margin-left: 30px;
+    color: red;
+    font-size: 80px;
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+.support:hover{
+    background-color: red;
+    color: white;
+}
+.footer{
+    background-color: #e74c3c;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.poloska-bottom{
+    justify-content: center;
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icontwitter{
+    margin-left: 100px;
+}
+.twitter{
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    padding: 5px;
+    margin-top: 60px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.twitter:hover{
+    background-color: white;
+    color: #e74c3c;
+}
+.textpoloska{
+    display: flex;
+   
+    color: white;
+    margin-top: 100px;
+    
+}
+
+
+
 
 
 

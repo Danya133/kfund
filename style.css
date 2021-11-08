@@ -33,7 +33,7 @@ body{
 .header-top{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin-left: 20px;
 }
 .header-inner:hover{

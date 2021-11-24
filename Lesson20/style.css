@@ -1,0 +1,87 @@
+body{
+    font-family: 'M PLUS 2', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    background-color: rgb(16, 14, 26);
+    height: 82px;
+}
+.startmenu{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 82px;
+}
+.menu{
+    justify-content: space-around;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+   
+}
+.link{
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+.link1{
+    margin-left: 40px;
+    list-style-type: none;
+}
+.link2{
+    text-decoration: none;
+    color: #A4AEAD;
+    transition: 0.5s;
+    border: 2px solid rgb(16, 14, 26);
+    padding: 10px;
+}
+.banner-inner{
+    height: 660px;
+    background-image: url("img/banner2.png");
+}
+.text{
+    color: white;
+    padding-top: 226px;
+}
+.text1{
+    color: #CCD0D7;
+}
+.button{
+    color: white;
+    display: flex;
+}
+.button-left{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.9s;
+}
+.button-right{
+    margin-left: 40px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.button-left:hover{
+    background-color: #2ecc71;
+    border: none;
+}
+.homeactive{
+    transition: 0.5s;
+}
+.link2:hover{
+    border: 2px solid white;
+    padding: 10px;
+}
+.homeactive:active{
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+}
